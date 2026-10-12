@@ -1,0 +1,12 @@
+{
+	"extends": "$app/tsconfig",
+	"compilerOptions": {
+		"strict": true,
+		"paths": {
+			"#lib": ["./src/lib/index.ts"],
+			"#lib/*": ["./src/lib/*"]
+		}
+	},
+	"include": ["src", "vite.config.ts", "scripts", "drizzle.config.ts"],
+	"exclude": ["scripts/make-icons.mjs"]
+}

@@ -1,0 +1,15 @@
+{
+	"name": "کافه ماهور",
+	"short_name": "کافه ماهور",
+	"description": "منوی دیجیتال و سفارش‌گیری",
+	"start_url": "/t/?welcome",
+	"scope": "/",
+	"display": "standalone",
+	"background_color": "#faf6f1",
+	"theme_color": "#6f4e37",
+	"icons": [
+		{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+		{ "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+		{ "src": "/icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+	]
+}
